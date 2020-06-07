@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Lab1ASP.NetCore.Models.Order>
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 style="color:red">Obs!!!</h1>
+
+<div>
+    <h1>Error no seats left or to many tickets chosen!</h1>
+</div>
+<div>
+    <a asp-controller="Orders" class="btn btn-info"   asp-action="Create"> Back </a>
+</div>
